@@ -1,18 +1,80 @@
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-
 .carousel {
-    max-height: 500;
+    max-height: 1000;
+}
+
+.first-icon {
+    display: inline-block;
+    background: black;
+    color: white;
+    border-radius: 10%;
+    height: 100;
+    width: 100;
+    text-align:center;
+}
+
+section { 
+    margin-bottom: 10; 
+}
+
+.center-img {
+    background-color: #00C7E8;
+}
+
+.icon-img {
+    height: 60;
+    width: 60;
+    display: inline-block;
+}
+
+span {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.icon {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.circle-img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.section-sub-title {
+    background-color: grey;
+}
+
+h1 {
+    color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+h4 {
+    text-align: center;
+}
+
+.text-blue {
+    color: turquoise;
+}
+
+footer {
+    background-color: black;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-weight: normal;
 }
